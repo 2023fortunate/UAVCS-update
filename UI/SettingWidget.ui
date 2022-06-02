@@ -1,0 +1,3934 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SettingWidget</class>
+ <widget class="QMainWindow" name="SettingWidget">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(50, 50, 50);</string>
+  </property>
+  <property name="toolButtonStyle">
+   <enum>Qt::ToolButtonIconOnly</enum>
+  </property>
+  <property name="animated">
+   <bool>true</bool>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="CSSCBasicWidget" name="widget2">
+    <property name="geometry">
+     <rect>
+      <x>960</x>
+      <y>0</y>
+      <width>959</width>
+      <height>539</height>
+     </rect>
+    </property>
+    <property name="borderWidth">
+     <number>2</number>
+    </property>
+    <property name="isShowBgPixmap">
+     <bool>true</bool>
+    </property>
+    <widget class="CSSCBasicWidget" name="csscBasicWidget_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>50</y>
+       <width>941</width>
+       <height>481</height>
+      </rect>
+     </property>
+     <widget class="CSSCLabel" name="csscLabel_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>941</width>
+        <height>481</height>
+       </rect>
+      </property>
+      <property name="nightNormalFontColor">
+       <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </property>
+     </widget>
+     <widget class="QWidget" name="widget_2" native="true">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>410</y>
+        <width>611</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:rgb(158, 158, 158);</string>
+      </property>
+      <widget class="CSSCGaugeMini" name="csscGaugeMini_7">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>41</width>
+         <height>41</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="CSSCLabel" name="weizhi2">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>15</y>
+         <width>71</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>微软雅黑</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">/*CSSCLabel Start*/
+
+CSSCLabel
+
+{
+
+	color: rgba(0, 0, 0, 255);
+
+	background-color: qlineargradient(x1: 0 , y1: 0, x2: 0, y2: 1, stop: 0 rgba(255, 52, 72, 255), stop: 1.0 rgba(255, 234, 239, 255));
+
+	border: 0px solid rgba(50, 50, 50, 128);
+
+}
+
+CSSCLabel:disabled
+
+{
+
+	color: rgba(100, 100, 100, 255);
+
+}
+
+
+
+/*CSSCLabel End*/</string>
+       </property>
+       <property name="text">
+        <string>位置</string>
+       </property>
+       <property name="normalFontColor">
+        <color>
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </property>
+       <property name="nightNormalFontColor">
+        <color>
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </property>
+       <property name="backgroundColorStart">
+        <color>
+         <red>255</red>
+         <green>52</green>
+         <blue>72</blue>
+        </color>
+       </property>
+       <property name="backgroundColorEnd">
+        <color>
+         <red>255</red>
+         <green>234</green>
+         <blue>239</blue>
+        </color>
+       </property>
+       <property name="borderColor">
+        <color alpha="128">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+      </widget>
+      <widget class="CSSCLabel" name="weizhi_x2">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>15</y>
+         <width>71</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>微软雅黑</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">/*CSSCLabel Start*/
+
+CSSCLabel
+
+{
+
+	color: rgba(9, 2, 9, 255);
+
+	background-color: qlineargradient(x1: 0 , y1: 0, x2: 0, y2: 1, stop: 0 rgba(50, 50, 50, 0), stop: 1.0 rgba(50, 50, 50, 0));
+
+	border: 0px solid rgba(50, 50, 50, 128);
+
+}
+
+CSSCLabel:disabled
+
+{
+
+	color: rgba(100, 100, 100, 255);
+
+}
+
+
+
+/*CSSCLabel End*/</string>
+       </property>
+       <property name="text">
+        <string>0.0</string>
+       </property>
+       <property name="normalFontColor">
+        <color>
+         <red>9</red>
+         <green>2</green>
+         <blue>9</blue>
+        </color>
+       </property>
+       <property name="nightNormalFontColor">
+        <color>
+         <red>9</red>
+         <green>2</green>
+         <blue>9</blue>
+        </color>
+       </property>
+       <property name="backgroundColorStart">
+        <color alpha="0">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+       <property name="backgroundColorEnd">
+        <color alpha="0">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+       <property name="borderColor">
+        <color alpha="128">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+      </widget>
+      <widget class="CSSCLabel" name="weizhi_y2">
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>15</y>
+         <width>71</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>微软雅黑</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">/*CSSCLabel Start*/
+
+CSSCLabel
+
+{
+
+	color: rgba(9, 2, 9, 255);
+
+	background-color: qlineargradient(x1: 0 , y1: 0, x2: 0, y2: 1, stop: 0 rgba(50, 50, 50, 0), stop: 1.0 rgba(50, 50, 50, 0));
+
+	border: 0px solid rgba(50, 50, 50, 128);
+
+}
+
+CSSCLabel:disabled
+
+{
+
+	color: rgba(100, 100, 100, 255);
+
+}
+
+
+
+/*CSSCLabel End*/</string>
+       </property>
+       <property name="text">
+        <string>0.0</string>
+       </property>
+       <property name="normalFontColor">
+        <color>
+         <red>9</red>
+         <green>2</green>
+         <blue>9</blue>
+        </color>
+       </property>
+       <property name="nightNormalFontColor">
+        <color>
+         <red>9</red>
+         <green>2</green>
+         <blue>9</blue>
+        </color>
+       </property>
+       <property name="backgroundColorStart">
+        <color alpha="0">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+       <property name="backgroundColorEnd">
+        <color alpha="0">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+       <property name="borderColor">
+        <color alpha="128">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+      </widget>
+      <widget class="CSSCLabel" name="weizhi_z2">
+       <property name="geometry">
+        <rect>
+         <x>270</x>
+         <y>15</y>
+         <width>71</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>微软雅黑</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">/*CSSCLabel Start*/
+
+CSSCLabel
+
+{
+
+	color: rgba(9, 2, 9, 255);
+
+	background-color: qlineargradient(x1: 0 , y1: 0, x2: 0, y2: 1, stop: 0 rgba(50, 50, 50, 0), stop: 1.0 rgba(50, 50, 50, 0));
+
+	border: 0px solid rgba(50, 50, 50, 128);
+
+}
+
+CSSCLabel:disabled
+
+{
+
+	color: rgba(100, 100, 100, 255);
+
+}
+
+
+
+/*CSSCLabel End*/</string>
+       </property>
+       <property name="text">
+        <string>0.0</string>
+       </property>
+       <property name="normalFontColor">
+        <color>
+         <red>9</red>
+         <green>2</green>
+         <blue>9</blue>
+        </color>
+       </property>
+       <property name="nightNormalFontColor">
+        <color>
+         <red>9</red>
+         <green>2</green>
+         <blue>9</blue>
+        </color>
+       </property>
+       <property name="backgroundColorStart">
+        <color alpha="0">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+       <property name="backgroundColorEnd">
+        <color alpha="0">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+       <property name="borderColor">
+        <color alpha="128">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+      </widget>
+      <widget class="CSSCLabel" name="sudu2">
+       <property name="geometry">
+        <rect>
+         <x>350</x>
+         <y>15</y>
+         <width>71</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>微软雅黑</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">/*CSSCLabel Start*/
+
+CSSCLabel
+
+{
+
+	color: rgba(0, 0, 0, 255);
+
+	background-color: qlineargradient(x1: 0 , y1: 0, x2: 0, y2: 1, stop: 0 rgba(0, 255, 127, 255), stop: 1.0 rgba(255, 246, 248, 255));
+
+	border: 0px solid rgba(50, 50, 50, 128);
+
+}
+
+CSSCLabel:disabled
+
+{
+
+	color: rgba(100, 100, 100, 255);
+
+}
+
+
+
+/*CSSCLabel End*/</string>
+       </property>
+       <property name="text">
+        <string>速度</string>
+       </property>
+       <property name="normalFontColor">
+        <color>
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </property>
+       <property name="nightNormalFontColor">
+        <color>
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </property>
+       <property name="backgroundColorStart">
+        <color>
+         <red>0</red>
+         <green>255</green>
+         <blue>127</blue>
+        </color>
+       </property>
+       <property name="backgroundColorEnd">
+        <color>
+         <red>255</red>
+         <green>246</green>
+         <blue>248</blue>
+        </color>
+       </property>
+       <property name="borderColor">
+        <color alpha="128">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+      </widget>
+      <widget class="CSSCLabel" name="sudu_x2">
+       <property name="geometry">
+        <rect>
+         <x>420</x>
+         <y>15</y>
+         <width>71</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>微软雅黑</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">/*CSSCLabel Start*/
+
+CSSCLabel
+
+{
+
+	color: rgba(9, 2, 9, 255);
+
+	background-color: qlineargradient(x1: 0 , y1: 0, x2: 0, y2: 1, stop: 0 rgba(50, 50, 50, 0), stop: 1.0 rgba(50, 50, 50, 0));
+
+	border: 0px solid rgba(50, 50, 50, 128);
+
+}
+
+CSSCLabel:disabled
+
+{
+
+	color: rgba(100, 100, 100, 255);
+
+}
+
+
+
+/*CSSCLabel End*/</string>
+       </property>
+       <property name="text">
+        <string>0.0</string>
+       </property>
+       <property name="normalFontColor">
+        <color>
+         <red>9</red>
+         <green>2</green>
+         <blue>9</blue>
+        </color>
+       </property>
+       <property name="nightNormalFontColor">
+        <color>
+         <red>9</red>
+         <green>2</green>
+         <blue>9</blue>
+        </color>
+       </property>
+       <property name="backgroundColorStart">
+        <color alpha="0">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+       <property name="backgroundColorEnd">
+        <color alpha="0">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+       <property name="borderColor">
+        <color alpha="128">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+      </widget>
+      <widget class="CSSCLabel" name="sudu_y2">
+       <property name="geometry">
+        <rect>
+         <x>480</x>
+         <y>15</y>
+         <width>71</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>微软雅黑</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">/*CSSCLabel Start*/
+
+CSSCLabel
+
+{
+
+	color: rgba(9, 2, 9, 255);
+
+	background-color: qlineargradient(x1: 0 , y1: 0, x2: 0, y2: 1, stop: 0 rgba(50, 50, 50, 0), stop: 1.0 rgba(50, 50, 50, 0));
+
+	border: 0px solid rgba(50, 50, 50, 128);
+
+}
+
+CSSCLabel:disabled
+
+{
+
+	color: rgba(100, 100, 100, 255);
+
+}
+
+
+
+/*CSSCLabel End*/</string>
+       </property>
+       <property name="text">
+        <string>0.0</string>
+       </property>
+       <property name="normalFontColor">
+        <color>
+         <red>9</red>
+         <green>2</green>
+         <blue>9</blue>
+        </color>
+       </property>
+       <property name="nightNormalFontColor">
+        <color>
+         <red>9</red>
+         <green>2</green>
+         <blue>9</blue>
+        </color>
+       </property>
+       <property name="backgroundColorStart">
+        <color alpha="0">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+       <property name="backgroundColorEnd">
+        <color alpha="0">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+       <property name="borderColor">
+        <color alpha="128">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+      </widget>
+      <widget class="CSSCLabel" name="sudu_z2">
+       <property name="geometry">
+        <rect>
+         <x>540</x>
+         <y>15</y>
+         <width>71</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>微软雅黑</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">/*CSSCLabel Start*/
+
+CSSCLabel
+
+{
+
+	color: rgba(9, 2, 9, 255);
+
+	background-color: qlineargradient(x1: 0 , y1: 0, x2: 0, y2: 1, stop: 0 rgba(50, 50, 50, 0), stop: 1.0 rgba(50, 50, 50, 0));
+
+	border: 0px solid rgba(50, 50, 50, 128);
+
+}
+
+CSSCLabel:disabled
+
+{
+
+	color: rgba(100, 100, 100, 255);
+
+}
+
+
+
+/*CSSCLabel End*/</string>
+       </property>
+       <property name="text">
+        <string>0.0</string>
+       </property>
+       <property name="normalFontColor">
+        <color>
+         <red>9</red>
+         <green>2</green>
+         <blue>9</blue>
+        </color>
+       </property>
+       <property name="nightNormalFontColor">
+        <color>
+         <red>9</red>
+         <green>2</green>
+         <blue>9</blue>
+        </color>
+       </property>
+       <property name="backgroundColorStart">
+        <color alpha="0">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+       <property name="backgroundColorEnd">
+        <color alpha="0">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+       <property name="borderColor">
+        <color alpha="128">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="CSSCToolButton" name="all2">
+     <property name="geometry">
+      <rect>
+       <x>890</x>
+       <y>10</y>
+       <width>40</width>
+       <height>36</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string>/*CSSCToolButton Start*/
+
+CSSCToolButton
+
+{
+
+	border: 1px solid transparent;
+
+	background-repeat:no-repeat;
+
+	background-image:url(:/Image/Night/CSSCToolButton/icon_4_normal.png);
+
+}
+
+CSSCToolButton:hover
+
+{
+
+	border: 1px solid rgba(21, 197, 212, 255);
+
+}
+
+CSSCToolButton:pressed
+
+{
+
+	border: 1px solid rgba(21, 197, 212, 255);
+
+	background-image:url(:/Image/Night/CSSCToolButton/icon_4_pressed.png);
+
+}
+
+CSSCToolButton:checked
+
+{
+
+	/*border: 1px solid rgba(21, 197, 212, 255);*/
+
+	background-image:url(:/Image/Night/CSSCToolButton/icon_4_pressed.png);
+
+}
+
+CSSCToolButton:disabled
+
+{
+
+    border: 1px solid transparent;
+
+	background-image:url(:/Image/Night/CSSCToolButton/icon_4_disable.png);
+
+}
+
+/*CSSCToolButton End*/</string>
+     </property>
+     <property name="SelectedIconName">
+      <string>icon_4</string>
+     </property>
+    </widget>
+    <widget class="CSSCToolButton" name="jia2">
+     <property name="geometry">
+      <rect>
+       <x>820</x>
+       <y>10</y>
+       <width>40</width>
+       <height>36</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string>/*CSSCToolButton Start*/
+
+CSSCToolButton
+
+{
+
+	border: 1px solid transparent;
+
+	background-repeat:no-repeat;
+
+	background-image:url(:/Image/Night/CSSCToolButton/icon_3_normal.png);
+
+}
+
+CSSCToolButton:hover
+
+{
+
+	border: 1px solid rgba(21, 197, 212, 255);
+
+}
+
+CSSCToolButton:pressed
+
+{
+
+	border: 1px solid rgba(21, 197, 212, 255);
+
+	background-image:url(:/Image/Night/CSSCToolButton/icon_3_pressed.png);
+
+}
+
+CSSCToolButton:checked
+
+{
+
+	/*border: 1px solid rgba(21, 197, 212, 255);*/
+
+	background-image:url(:/Image/Night/CSSCToolButton/icon_3_pressed.png);
+
+}
+
+CSSCToolButton:disabled
+
+{
+
+    border: 1px solid transparent;
+
+	background-image:url(:/Image/Night/CSSCToolButton/icon_3_disable.png);
+
+}
+
+/*CSSCToolButton End*/</string>
+     </property>
+     <property name="SelectedIconName">
+      <string>icon_3</string>
+     </property>
+    </widget>
+    <widget class="CSSCComboBox" name="csscComboBox_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>150</width>
+       <height>32</height>
+      </rect>
+     </property>
+     <property name="editable">
+      <bool>true</bool>
+     </property>
+     <property name="currentIndex">
+      <number>-1</number>
+     </property>
+    </widget>
+    <widget class="CSSCToolButton" name="jian2">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>750</x>
+       <y>10</y>
+       <width>40</width>
+       <height>36</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string>/*CSSCToolButton Start*/
+
+CSSCToolButton
+
+{
+
+	border: 1px solid transparent;
+
+	background-repeat:no-repeat;
+
+	background-image:url(:/Image/Night/CSSCToolButton/icon_2_normal.png);
+
+}
+
+CSSCToolButton:hover
+
+{
+
+	border: 1px solid rgba(21, 197, 212, 255);
+
+}
+
+CSSCToolButton:pressed
+
+{
+
+	border: 1px solid rgba(21, 197, 212, 255);
+
+	background-image:url(:/Image/Night/CSSCToolButton/icon_2_pressed.png);
+
+}
+
+CSSCToolButton:checked
+
+{
+
+	/*border: 1px solid rgba(21, 197, 212, 255);*/
+
+	background-image:url(:/Image/Night/CSSCToolButton/icon_2_pressed.png);
+
+}
+
+CSSCToolButton:disabled
+
+{
+
+    border: 1px solid transparent;
+
+	background-image:url(:/Image/Night/CSSCToolButton/icon_2_disable.png);
+
+}
+
+/*CSSCToolButton End*/</string>
+     </property>
+     <property name="SelectedIconName">
+      <string>icon_2</string>
+     </property>
+    </widget>
+    <widget class="CSSCColorLabel" name="UAV2">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>0</y>
+       <width>280</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>6</pointsize>
+      </font>
+     </property>
+     <property name="fontColorSide">
+      <color>
+       <red>130</red>
+       <green>5</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="fontColorMid">
+      <color>
+       <red>255</red>
+       <green>115</green>
+       <blue>134</blue>
+      </color>
+     </property>
+     <property name="pixelSize" stdset="0">
+      <number>30</number>
+     </property>
+     <property name="showText">
+      <string>UAV2</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="CSSCBasicWidget" name="widget4">
+    <property name="geometry">
+     <rect>
+      <x>960</x>
+      <y>540</y>
+      <width>959</width>
+      <height>539</height>
+     </rect>
+    </property>
+    <property name="borderWidth">
+     <number>2</number>
+    </property>
+    <property name="isShowBgPixmap">
+     <bool>true</bool>
+    </property>
+    <widget class="CSSCBasicWidget" name="csscBasicWidget_4">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>50</y>
+       <width>941</width>
+       <height>451</height>
+      </rect>
+     </property>
+     <widget class="CSSCLabel" name="csscLabel_4">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>941</width>
+        <height>451</height>
+       </rect>
+      </property>
+      <property name="nightNormalFontColor">
+       <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </property>
+     </widget>
+     <widget class="QWidget" name="widget_4" native="true">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>380</y>
+        <width>611</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:rgb(158, 158, 158);</string>
+      </property>
+      <widget class="CSSCGaugeMini" name="csscGaugeMini_9">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>41</width>
+         <height>41</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="CSSCLabel" name="weizhi4">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>15</y>
+         <width>71</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>微软雅黑</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">/*CSSCLabel Start*/
+
+CSSCLabel
+
+{
+
+	color: rgba(0, 0, 0, 255);
+
+	background-color: qlineargradient(x1: 0 , y1: 0, x2: 0, y2: 1, stop: 0 rgba(255, 52, 72, 255), stop: 1.0 rgba(255, 234, 239, 255));
+
+	border: 0px solid rgba(50, 50, 50, 128);
+
+}
+
+CSSCLabel:disabled
+
+{
+
+	color: rgba(100, 100, 100, 255);
+
+}
+
+
+
+/*CSSCLabel End*/</string>
+       </property>
+       <property name="text">
+        <string>位置</string>
+       </property>
+       <property name="normalFontColor">
+        <color>
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </property>
+       <property name="nightNormalFontColor">
+        <color>
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </property>
+       <property name="backgroundColorStart">
+        <color>
+         <red>255</red>
+         <green>52</green>
+         <blue>72</blue>
+        </color>
+       </property>
+       <property name="backgroundColorEnd">
+        <color>
+         <red>255</red>
+         <green>234</green>
+         <blue>239</blue>
+        </color>
+       </property>
+       <property name="borderColor">
+        <color alpha="128">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+      </widget>
+      <widget class="CSSCLabel" name="weizhi_x4">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>15</y>
+         <width>71</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>微软雅黑</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">/*CSSCLabel Start*/
+
+CSSCLabel
+
+{
+
+	color: rgba(9, 2, 9, 255);
+
+	background-color: qlineargradient(x1: 0 , y1: 0, x2: 0, y2: 1, stop: 0 rgba(50, 50, 50, 0), stop: 1.0 rgba(50, 50, 50, 0));
+
+	border: 0px solid rgba(50, 50, 50, 128);
+
+}
+
+CSSCLabel:disabled
+
+{
+
+	color: rgba(100, 100, 100, 255);
+
+}
+
+
+
+/*CSSCLabel End*/</string>
+       </property>
+       <property name="text">
+        <string>0.0</string>
+       </property>
+       <property name="normalFontColor">
+        <color>
+         <red>9</red>
+         <green>2</green>
+         <blue>9</blue>
+        </color>
+       </property>
+       <property name="nightNormalFontColor">
+        <color>
+         <red>9</red>
+         <green>2</green>
+         <blue>9</blue>
+        </color>
+       </property>
+       <property name="backgroundColorStart">
+        <color alpha="0">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+       <property name="backgroundColorEnd">
+        <color alpha="0">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+       <property name="borderColor">
+        <color alpha="128">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+      </widget>
+      <widget class="CSSCLabel" name="weizhi_y4">
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>15</y>
+         <width>71</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>微软雅黑</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">/*CSSCLabel Start*/
+
+CSSCLabel
+
+{
+
+	color: rgba(9, 2, 9, 255);
+
+	background-color: qlineargradient(x1: 0 , y1: 0, x2: 0, y2: 1, stop: 0 rgba(50, 50, 50, 0), stop: 1.0 rgba(50, 50, 50, 0));
+
+	border: 0px solid rgba(50, 50, 50, 128);
+
+}
+
+CSSCLabel:disabled
+
+{
+
+	color: rgba(100, 100, 100, 255);
+
+}
+
+
+
+/*CSSCLabel End*/</string>
+       </property>
+       <property name="text">
+        <string>0.0</string>
+       </property>
+       <property name="normalFontColor">
+        <color>
+         <red>9</red>
+         <green>2</green>
+         <blue>9</blue>
+        </color>
+       </property>
+       <property name="nightNormalFontColor">
+        <color>
+         <red>9</red>
+         <green>2</green>
+         <blue>9</blue>
+        </color>
+       </property>
+       <property name="backgroundColorStart">
+        <color alpha="0">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+       <property name="backgroundColorEnd">
+        <color alpha="0">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+       <property name="borderColor">
+        <color alpha="128">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+      </widget>
+      <widget class="CSSCLabel" name="weizhi_z4">
+       <property name="geometry">
+        <rect>
+         <x>270</x>
+         <y>15</y>
+         <width>71</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>微软雅黑</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">/*CSSCLabel Start*/
+
+CSSCLabel
+
+{
+
+	color: rgba(9, 2, 9, 255);
+
+	background-color: qlineargradient(x1: 0 , y1: 0, x2: 0, y2: 1, stop: 0 rgba(50, 50, 50, 0), stop: 1.0 rgba(50, 50, 50, 0));
+
+	border: 0px solid rgba(50, 50, 50, 128);
+
+}
+
+CSSCLabel:disabled
+
+{
+
+	color: rgba(100, 100, 100, 255);
+
+}
+
+
+
+/*CSSCLabel End*/</string>
+       </property>
+       <property name="text">
+        <string>0.0</string>
+       </property>
+       <property name="normalFontColor">
+        <color>
+         <red>9</red>
+         <green>2</green>
+         <blue>9</blue>
+        </color>
+       </property>
+       <property name="nightNormalFontColor">
+        <color>
+         <red>9</red>
+         <green>2</green>
+         <blue>9</blue>
+        </color>
+       </property>
+       <property name="backgroundColorStart">
+        <color alpha="0">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+       <property name="backgroundColorEnd">
+        <color alpha="0">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+       <property name="borderColor">
+        <color alpha="128">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+      </widget>
+      <widget class="CSSCLabel" name="sudu4">
+       <property name="geometry">
+        <rect>
+         <x>350</x>
+         <y>15</y>
+         <width>71</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>微软雅黑</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">/*CSSCLabel Start*/
+
+CSSCLabel
+
+{
+
+	color: rgba(0, 0, 0, 255);
+
+	background-color: qlineargradient(x1: 0 , y1: 0, x2: 0, y2: 1, stop: 0 rgba(0, 255, 127, 255), stop: 1.0 rgba(255, 246, 248, 255));
+
+	border: 0px solid rgba(50, 50, 50, 128);
+
+}
+
+CSSCLabel:disabled
+
+{
+
+	color: rgba(100, 100, 100, 255);
+
+}
+
+
+
+/*CSSCLabel End*/</string>
+       </property>
+       <property name="text">
+        <string>速度</string>
+       </property>
+       <property name="normalFontColor">
+        <color>
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </property>
+       <property name="nightNormalFontColor">
+        <color>
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </property>
+       <property name="backgroundColorStart">
+        <color>
+         <red>0</red>
+         <green>255</green>
+         <blue>127</blue>
+        </color>
+       </property>
+       <property name="backgroundColorEnd">
+        <color>
+         <red>255</red>
+         <green>246</green>
+         <blue>248</blue>
+        </color>
+       </property>
+       <property name="borderColor">
+        <color alpha="128">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+      </widget>
+      <widget class="CSSCLabel" name="sudu_x4">
+       <property name="geometry">
+        <rect>
+         <x>420</x>
+         <y>15</y>
+         <width>71</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>微软雅黑</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">/*CSSCLabel Start*/
+
+CSSCLabel
+
+{
+
+	color: rgba(9, 2, 9, 255);
+
+	background-color: qlineargradient(x1: 0 , y1: 0, x2: 0, y2: 1, stop: 0 rgba(50, 50, 50, 0), stop: 1.0 rgba(50, 50, 50, 0));
+
+	border: 0px solid rgba(50, 50, 50, 128);
+
+}
+
+CSSCLabel:disabled
+
+{
+
+	color: rgba(100, 100, 100, 255);
+
+}
+
+
+
+/*CSSCLabel End*/</string>
+       </property>
+       <property name="text">
+        <string>0.0</string>
+       </property>
+       <property name="normalFontColor">
+        <color>
+         <red>9</red>
+         <green>2</green>
+         <blue>9</blue>
+        </color>
+       </property>
+       <property name="nightNormalFontColor">
+        <color>
+         <red>9</red>
+         <green>2</green>
+         <blue>9</blue>
+        </color>
+       </property>
+       <property name="backgroundColorStart">
+        <color alpha="0">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+       <property name="backgroundColorEnd">
+        <color alpha="0">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+       <property name="borderColor">
+        <color alpha="128">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+      </widget>
+      <widget class="CSSCLabel" name="sudu_y4">
+       <property name="geometry">
+        <rect>
+         <x>480</x>
+         <y>15</y>
+         <width>71</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>微软雅黑</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">/*CSSCLabel Start*/
+
+CSSCLabel
+
+{
+
+	color: rgba(9, 2, 9, 255);
+
+	background-color: qlineargradient(x1: 0 , y1: 0, x2: 0, y2: 1, stop: 0 rgba(50, 50, 50, 0), stop: 1.0 rgba(50, 50, 50, 0));
+
+	border: 0px solid rgba(50, 50, 50, 128);
+
+}
+
+CSSCLabel:disabled
+
+{
+
+	color: rgba(100, 100, 100, 255);
+
+}
+
+
+
+/*CSSCLabel End*/</string>
+       </property>
+       <property name="text">
+        <string>0.0</string>
+       </property>
+       <property name="normalFontColor">
+        <color>
+         <red>9</red>
+         <green>2</green>
+         <blue>9</blue>
+        </color>
+       </property>
+       <property name="nightNormalFontColor">
+        <color>
+         <red>9</red>
+         <green>2</green>
+         <blue>9</blue>
+        </color>
+       </property>
+       <property name="backgroundColorStart">
+        <color alpha="0">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+       <property name="backgroundColorEnd">
+        <color alpha="0">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+       <property name="borderColor">
+        <color alpha="128">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+      </widget>
+      <widget class="CSSCLabel" name="sudu_z4">
+       <property name="geometry">
+        <rect>
+         <x>540</x>
+         <y>15</y>
+         <width>71</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>微软雅黑</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">/*CSSCLabel Start*/
+
+CSSCLabel
+
+{
+
+	color: rgba(9, 2, 9, 255);
+
+	background-color: qlineargradient(x1: 0 , y1: 0, x2: 0, y2: 1, stop: 0 rgba(50, 50, 50, 0), stop: 1.0 rgba(50, 50, 50, 0));
+
+	border: 0px solid rgba(50, 50, 50, 128);
+
+}
+
+CSSCLabel:disabled
+
+{
+
+	color: rgba(100, 100, 100, 255);
+
+}
+
+
+
+/*CSSCLabel End*/</string>
+       </property>
+       <property name="text">
+        <string>0.0</string>
+       </property>
+       <property name="normalFontColor">
+        <color>
+         <red>9</red>
+         <green>2</green>
+         <blue>9</blue>
+        </color>
+       </property>
+       <property name="nightNormalFontColor">
+        <color>
+         <red>9</red>
+         <green>2</green>
+         <blue>9</blue>
+        </color>
+       </property>
+       <property name="backgroundColorStart">
+        <color alpha="0">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+       <property name="backgroundColorEnd">
+        <color alpha="0">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+       <property name="borderColor">
+        <color alpha="128">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="CSSCToolButton" name="all4">
+     <property name="geometry">
+      <rect>
+       <x>890</x>
+       <y>10</y>
+       <width>40</width>
+       <height>36</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string>/*CSSCToolButton Start*/
+
+CSSCToolButton
+
+{
+
+	border: 1px solid transparent;
+
+	background-repeat:no-repeat;
+
+	background-image:url(:/Image/Night/CSSCToolButton/icon_4_normal.png);
+
+}
+
+CSSCToolButton:hover
+
+{
+
+	border: 1px solid rgba(21, 197, 212, 255);
+
+}
+
+CSSCToolButton:pressed
+
+{
+
+	border: 1px solid rgba(21, 197, 212, 255);
+
+	background-image:url(:/Image/Night/CSSCToolButton/icon_4_pressed.png);
+
+}
+
+CSSCToolButton:checked
+
+{
+
+	/*border: 1px solid rgba(21, 197, 212, 255);*/
+
+	background-image:url(:/Image/Night/CSSCToolButton/icon_4_pressed.png);
+
+}
+
+CSSCToolButton:disabled
+
+{
+
+    border: 1px solid transparent;
+
+	background-image:url(:/Image/Night/CSSCToolButton/icon_4_disable.png);
+
+}
+
+/*CSSCToolButton End*/</string>
+     </property>
+     <property name="SelectedIconName">
+      <string>icon_4</string>
+     </property>
+    </widget>
+    <widget class="CSSCToolButton" name="jia4">
+     <property name="geometry">
+      <rect>
+       <x>820</x>
+       <y>10</y>
+       <width>40</width>
+       <height>36</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string>/*CSSCToolButton Start*/
+
+CSSCToolButton
+
+{
+
+	border: 1px solid transparent;
+
+	background-repeat:no-repeat;
+
+	background-image:url(:/Image/Night/CSSCToolButton/icon_3_normal.png);
+
+}
+
+CSSCToolButton:hover
+
+{
+
+	border: 1px solid rgba(21, 197, 212, 255);
+
+}
+
+CSSCToolButton:pressed
+
+{
+
+	border: 1px solid rgba(21, 197, 212, 255);
+
+	background-image:url(:/Image/Night/CSSCToolButton/icon_3_pressed.png);
+
+}
+
+CSSCToolButton:checked
+
+{
+
+	/*border: 1px solid rgba(21, 197, 212, 255);*/
+
+	background-image:url(:/Image/Night/CSSCToolButton/icon_3_pressed.png);
+
+}
+
+CSSCToolButton:disabled
+
+{
+
+    border: 1px solid transparent;
+
+	background-image:url(:/Image/Night/CSSCToolButton/icon_3_disable.png);
+
+}
+
+/*CSSCToolButton End*/</string>
+     </property>
+     <property name="SelectedIconName">
+      <string>icon_3</string>
+     </property>
+    </widget>
+    <widget class="CSSCComboBox" name="csscComboBox_4">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>150</width>
+       <height>32</height>
+      </rect>
+     </property>
+     <property name="editable">
+      <bool>true</bool>
+     </property>
+     <property name="currentIndex">
+      <number>-1</number>
+     </property>
+    </widget>
+    <widget class="CSSCToolButton" name="jian4">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>750</x>
+       <y>10</y>
+       <width>40</width>
+       <height>36</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string>/*CSSCToolButton Start*/
+
+CSSCToolButton
+
+{
+
+	border: 1px solid transparent;
+
+	background-repeat:no-repeat;
+
+	background-image:url(:/Image/Night/CSSCToolButton/icon_2_normal.png);
+
+}
+
+CSSCToolButton:hover
+
+{
+
+	border: 1px solid rgba(21, 197, 212, 255);
+
+}
+
+CSSCToolButton:pressed
+
+{
+
+	border: 1px solid rgba(21, 197, 212, 255);
+
+	background-image:url(:/Image/Night/CSSCToolButton/icon_2_pressed.png);
+
+}
+
+CSSCToolButton:checked
+
+{
+
+	/*border: 1px solid rgba(21, 197, 212, 255);*/
+
+	background-image:url(:/Image/Night/CSSCToolButton/icon_2_pressed.png);
+
+}
+
+CSSCToolButton:disabled
+
+{
+
+    border: 1px solid transparent;
+
+	background-image:url(:/Image/Night/CSSCToolButton/icon_2_disable.png);
+
+}
+
+/*CSSCToolButton End*/</string>
+     </property>
+     <property name="SelectedIconName">
+      <string>icon_2</string>
+     </property>
+    </widget>
+    <widget class="CSSCColorLabel" name="UAV4">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>0</y>
+       <width>280</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>6</pointsize>
+      </font>
+     </property>
+     <property name="fontColorSide">
+      <color>
+       <red>130</red>
+       <green>5</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="fontColorMid">
+      <color>
+       <red>255</red>
+       <green>115</green>
+       <blue>134</blue>
+      </color>
+     </property>
+     <property name="pixelSize" stdset="0">
+      <number>30</number>
+     </property>
+     <property name="showText">
+      <string>UAV4</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="CSSCBasicWidget" name="widget3">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>540</y>
+      <width>959</width>
+      <height>539</height>
+     </rect>
+    </property>
+    <property name="borderWidth">
+     <number>2</number>
+    </property>
+    <property name="isShowBgPixmap">
+     <bool>true</bool>
+    </property>
+    <widget class="CSSCBasicWidget" name="csscBasicWidget_3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>50</y>
+       <width>941</width>
+       <height>451</height>
+      </rect>
+     </property>
+     <widget class="CSSCLabel" name="csscLabel_3">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>941</width>
+        <height>451</height>
+       </rect>
+      </property>
+      <property name="nightNormalFontColor">
+       <color>
+        <red>255</red>
+        <green>240</green>
+        <blue>243</blue>
+       </color>
+      </property>
+     </widget>
+     <widget class="QWidget" name="widget_3" native="true">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>380</y>
+        <width>611</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:rgb(158, 158, 158);</string>
+      </property>
+      <widget class="CSSCGaugeMini" name="csscGaugeMini_8">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>41</width>
+         <height>41</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="CSSCLabel" name="weizhi3">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>15</y>
+         <width>71</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>微软雅黑</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">/*CSSCLabel Start*/
+
+CSSCLabel
+
+{
+
+	color: rgba(0, 0, 0, 255);
+
+	background-color: qlineargradient(x1: 0 , y1: 0, x2: 0, y2: 1, stop: 0 rgba(255, 52, 72, 255), stop: 1.0 rgba(255, 234, 239, 255));
+
+	border: 0px solid rgba(50, 50, 50, 128);
+
+}
+
+CSSCLabel:disabled
+
+{
+
+	color: rgba(100, 100, 100, 255);
+
+}
+
+
+
+/*CSSCLabel End*/</string>
+       </property>
+       <property name="text">
+        <string>位置</string>
+       </property>
+       <property name="normalFontColor">
+        <color>
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </property>
+       <property name="nightNormalFontColor">
+        <color>
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </property>
+       <property name="backgroundColorStart">
+        <color>
+         <red>255</red>
+         <green>52</green>
+         <blue>72</blue>
+        </color>
+       </property>
+       <property name="backgroundColorEnd">
+        <color>
+         <red>255</red>
+         <green>234</green>
+         <blue>239</blue>
+        </color>
+       </property>
+       <property name="borderColor">
+        <color alpha="128">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+      </widget>
+      <widget class="CSSCLabel" name="weizhi_x3">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>15</y>
+         <width>71</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>微软雅黑</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">/*CSSCLabel Start*/
+
+CSSCLabel
+
+{
+
+	color: rgba(9, 2, 9, 255);
+
+	background-color: qlineargradient(x1: 0 , y1: 0, x2: 0, y2: 1, stop: 0 rgba(50, 50, 50, 0), stop: 1.0 rgba(50, 50, 50, 0));
+
+	border: 0px solid rgba(50, 50, 50, 128);
+
+}
+
+CSSCLabel:disabled
+
+{
+
+	color: rgba(100, 100, 100, 255);
+
+}
+
+
+
+/*CSSCLabel End*/</string>
+       </property>
+       <property name="text">
+        <string>0.0</string>
+       </property>
+       <property name="normalFontColor">
+        <color>
+         <red>9</red>
+         <green>2</green>
+         <blue>9</blue>
+        </color>
+       </property>
+       <property name="nightNormalFontColor">
+        <color>
+         <red>9</red>
+         <green>2</green>
+         <blue>9</blue>
+        </color>
+       </property>
+       <property name="backgroundColorStart">
+        <color alpha="0">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+       <property name="backgroundColorEnd">
+        <color alpha="0">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+       <property name="borderColor">
+        <color alpha="128">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+      </widget>
+      <widget class="CSSCLabel" name="weizhi_y3">
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>15</y>
+         <width>71</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>微软雅黑</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">/*CSSCLabel Start*/
+
+CSSCLabel
+
+{
+
+	color: rgba(9, 2, 9, 255);
+
+	background-color: qlineargradient(x1: 0 , y1: 0, x2: 0, y2: 1, stop: 0 rgba(50, 50, 50, 0), stop: 1.0 rgba(50, 50, 50, 0));
+
+	border: 0px solid rgba(50, 50, 50, 128);
+
+}
+
+CSSCLabel:disabled
+
+{
+
+	color: rgba(100, 100, 100, 255);
+
+}
+
+
+
+/*CSSCLabel End*/</string>
+       </property>
+       <property name="text">
+        <string>0.0</string>
+       </property>
+       <property name="normalFontColor">
+        <color>
+         <red>9</red>
+         <green>2</green>
+         <blue>9</blue>
+        </color>
+       </property>
+       <property name="nightNormalFontColor">
+        <color>
+         <red>9</red>
+         <green>2</green>
+         <blue>9</blue>
+        </color>
+       </property>
+       <property name="backgroundColorStart">
+        <color alpha="0">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+       <property name="backgroundColorEnd">
+        <color alpha="0">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+       <property name="borderColor">
+        <color alpha="128">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+      </widget>
+      <widget class="CSSCLabel" name="weizhi_z3">
+       <property name="geometry">
+        <rect>
+         <x>270</x>
+         <y>15</y>
+         <width>71</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>微软雅黑</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">/*CSSCLabel Start*/
+
+CSSCLabel
+
+{
+
+	color: rgba(9, 2, 9, 255);
+
+	background-color: qlineargradient(x1: 0 , y1: 0, x2: 0, y2: 1, stop: 0 rgba(50, 50, 50, 0), stop: 1.0 rgba(50, 50, 50, 0));
+
+	border: 0px solid rgba(50, 50, 50, 128);
+
+}
+
+CSSCLabel:disabled
+
+{
+
+	color: rgba(100, 100, 100, 255);
+
+}
+
+
+
+/*CSSCLabel End*/</string>
+       </property>
+       <property name="text">
+        <string>0.0</string>
+       </property>
+       <property name="normalFontColor">
+        <color>
+         <red>9</red>
+         <green>2</green>
+         <blue>9</blue>
+        </color>
+       </property>
+       <property name="nightNormalFontColor">
+        <color>
+         <red>9</red>
+         <green>2</green>
+         <blue>9</blue>
+        </color>
+       </property>
+       <property name="backgroundColorStart">
+        <color alpha="0">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+       <property name="backgroundColorEnd">
+        <color alpha="0">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+       <property name="borderColor">
+        <color alpha="128">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+      </widget>
+      <widget class="CSSCLabel" name="sudu3">
+       <property name="geometry">
+        <rect>
+         <x>350</x>
+         <y>15</y>
+         <width>71</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>微软雅黑</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">/*CSSCLabel Start*/
+
+CSSCLabel
+
+{
+
+	color: rgba(0, 0, 0, 255);
+
+	background-color: qlineargradient(x1: 0 , y1: 0, x2: 0, y2: 1, stop: 0 rgba(0, 255, 127, 255), stop: 1.0 rgba(255, 246, 248, 255));
+
+	border: 0px solid rgba(50, 50, 50, 128);
+
+}
+
+CSSCLabel:disabled
+
+{
+
+	color: rgba(100, 100, 100, 255);
+
+}
+
+
+
+/*CSSCLabel End*/</string>
+       </property>
+       <property name="text">
+        <string>速度</string>
+       </property>
+       <property name="normalFontColor">
+        <color>
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </property>
+       <property name="nightNormalFontColor">
+        <color>
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </property>
+       <property name="backgroundColorStart">
+        <color>
+         <red>0</red>
+         <green>255</green>
+         <blue>127</blue>
+        </color>
+       </property>
+       <property name="backgroundColorEnd">
+        <color>
+         <red>255</red>
+         <green>246</green>
+         <blue>248</blue>
+        </color>
+       </property>
+       <property name="borderColor">
+        <color alpha="128">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+      </widget>
+      <widget class="CSSCLabel" name="sudu_x3">
+       <property name="geometry">
+        <rect>
+         <x>420</x>
+         <y>15</y>
+         <width>71</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>微软雅黑</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">/*CSSCLabel Start*/
+
+CSSCLabel
+
+{
+
+	color: rgba(9, 2, 9, 255);
+
+	background-color: qlineargradient(x1: 0 , y1: 0, x2: 0, y2: 1, stop: 0 rgba(50, 50, 50, 0), stop: 1.0 rgba(50, 50, 50, 0));
+
+	border: 0px solid rgba(50, 50, 50, 128);
+
+}
+
+CSSCLabel:disabled
+
+{
+
+	color: rgba(100, 100, 100, 255);
+
+}
+
+
+
+/*CSSCLabel End*/</string>
+       </property>
+       <property name="text">
+        <string>0.0</string>
+       </property>
+       <property name="normalFontColor">
+        <color>
+         <red>9</red>
+         <green>2</green>
+         <blue>9</blue>
+        </color>
+       </property>
+       <property name="nightNormalFontColor">
+        <color>
+         <red>9</red>
+         <green>2</green>
+         <blue>9</blue>
+        </color>
+       </property>
+       <property name="backgroundColorStart">
+        <color alpha="0">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+       <property name="backgroundColorEnd">
+        <color alpha="0">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+       <property name="borderColor">
+        <color alpha="128">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+      </widget>
+      <widget class="CSSCLabel" name="sudu_y3">
+       <property name="geometry">
+        <rect>
+         <x>480</x>
+         <y>15</y>
+         <width>71</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>微软雅黑</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">/*CSSCLabel Start*/
+
+CSSCLabel
+
+{
+
+	color: rgba(9, 2, 9, 255);
+
+	background-color: qlineargradient(x1: 0 , y1: 0, x2: 0, y2: 1, stop: 0 rgba(50, 50, 50, 0), stop: 1.0 rgba(50, 50, 50, 0));
+
+	border: 0px solid rgba(50, 50, 50, 128);
+
+}
+
+CSSCLabel:disabled
+
+{
+
+	color: rgba(100, 100, 100, 255);
+
+}
+
+
+
+/*CSSCLabel End*/</string>
+       </property>
+       <property name="text">
+        <string>0.0</string>
+       </property>
+       <property name="normalFontColor">
+        <color>
+         <red>9</red>
+         <green>2</green>
+         <blue>9</blue>
+        </color>
+       </property>
+       <property name="nightNormalFontColor">
+        <color>
+         <red>9</red>
+         <green>2</green>
+         <blue>9</blue>
+        </color>
+       </property>
+       <property name="backgroundColorStart">
+        <color alpha="0">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+       <property name="backgroundColorEnd">
+        <color alpha="0">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+       <property name="borderColor">
+        <color alpha="128">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+      </widget>
+      <widget class="CSSCLabel" name="sudu_z3">
+       <property name="geometry">
+        <rect>
+         <x>540</x>
+         <y>15</y>
+         <width>71</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>微软雅黑</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">/*CSSCLabel Start*/
+
+CSSCLabel
+
+{
+
+	color: rgba(9, 2, 9, 255);
+
+	background-color: qlineargradient(x1: 0 , y1: 0, x2: 0, y2: 1, stop: 0 rgba(50, 50, 50, 0), stop: 1.0 rgba(50, 50, 50, 0));
+
+	border: 0px solid rgba(50, 50, 50, 128);
+
+}
+
+CSSCLabel:disabled
+
+{
+
+	color: rgba(100, 100, 100, 255);
+
+}
+
+
+
+/*CSSCLabel End*/</string>
+       </property>
+       <property name="text">
+        <string>0.0</string>
+       </property>
+       <property name="normalFontColor">
+        <color>
+         <red>9</red>
+         <green>2</green>
+         <blue>9</blue>
+        </color>
+       </property>
+       <property name="nightNormalFontColor">
+        <color>
+         <red>9</red>
+         <green>2</green>
+         <blue>9</blue>
+        </color>
+       </property>
+       <property name="backgroundColorStart">
+        <color alpha="0">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+       <property name="backgroundColorEnd">
+        <color alpha="0">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+       <property name="borderColor">
+        <color alpha="128">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="CSSCToolButton" name="all3">
+     <property name="geometry">
+      <rect>
+       <x>890</x>
+       <y>10</y>
+       <width>40</width>
+       <height>36</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string>/*CSSCToolButton Start*/
+
+CSSCToolButton
+
+{
+
+	border: 1px solid transparent;
+
+	background-repeat:no-repeat;
+
+	background-image:url(:/Image/Night/CSSCToolButton/icon_4_normal.png);
+
+}
+
+CSSCToolButton:hover
+
+{
+
+	border: 1px solid rgba(21, 197, 212, 255);
+
+}
+
+CSSCToolButton:pressed
+
+{
+
+	border: 1px solid rgba(21, 197, 212, 255);
+
+	background-image:url(:/Image/Night/CSSCToolButton/icon_4_pressed.png);
+
+}
+
+CSSCToolButton:checked
+
+{
+
+	/*border: 1px solid rgba(21, 197, 212, 255);*/
+
+	background-image:url(:/Image/Night/CSSCToolButton/icon_4_pressed.png);
+
+}
+
+CSSCToolButton:disabled
+
+{
+
+    border: 1px solid transparent;
+
+	background-image:url(:/Image/Night/CSSCToolButton/icon_4_disable.png);
+
+}
+
+/*CSSCToolButton End*/</string>
+     </property>
+     <property name="SelectedIconName">
+      <string>icon_4</string>
+     </property>
+    </widget>
+    <widget class="CSSCToolButton" name="jia3">
+     <property name="geometry">
+      <rect>
+       <x>820</x>
+       <y>10</y>
+       <width>40</width>
+       <height>36</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string>/*CSSCToolButton Start*/
+
+CSSCToolButton
+
+{
+
+	border: 1px solid transparent;
+
+	background-repeat:no-repeat;
+
+	background-image:url(:/Image/Night/CSSCToolButton/icon_3_normal.png);
+
+}
+
+CSSCToolButton:hover
+
+{
+
+	border: 1px solid rgba(21, 197, 212, 255);
+
+}
+
+CSSCToolButton:pressed
+
+{
+
+	border: 1px solid rgba(21, 197, 212, 255);
+
+	background-image:url(:/Image/Night/CSSCToolButton/icon_3_pressed.png);
+
+}
+
+CSSCToolButton:checked
+
+{
+
+	/*border: 1px solid rgba(21, 197, 212, 255);*/
+
+	background-image:url(:/Image/Night/CSSCToolButton/icon_3_pressed.png);
+
+}
+
+CSSCToolButton:disabled
+
+{
+
+    border: 1px solid transparent;
+
+	background-image:url(:/Image/Night/CSSCToolButton/icon_3_disable.png);
+
+}
+
+/*CSSCToolButton End*/</string>
+     </property>
+     <property name="SelectedIconName">
+      <string>icon_3</string>
+     </property>
+    </widget>
+    <widget class="CSSCComboBox" name="csscComboBox_3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>150</width>
+       <height>32</height>
+      </rect>
+     </property>
+     <property name="editable">
+      <bool>true</bool>
+     </property>
+     <property name="currentIndex">
+      <number>-1</number>
+     </property>
+    </widget>
+    <widget class="CSSCToolButton" name="jian3">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>750</x>
+       <y>10</y>
+       <width>40</width>
+       <height>36</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string>/*CSSCToolButton Start*/
+
+CSSCToolButton
+
+{
+
+	border: 1px solid transparent;
+
+	background-repeat:no-repeat;
+
+	background-image:url(:/Image/Night/CSSCToolButton/icon_2_normal.png);
+
+}
+
+CSSCToolButton:hover
+
+{
+
+	border: 1px solid rgba(21, 197, 212, 255);
+
+}
+
+CSSCToolButton:pressed
+
+{
+
+	border: 1px solid rgba(21, 197, 212, 255);
+
+	background-image:url(:/Image/Night/CSSCToolButton/icon_2_pressed.png);
+
+}
+
+CSSCToolButton:checked
+
+{
+
+	/*border: 1px solid rgba(21, 197, 212, 255);*/
+
+	background-image:url(:/Image/Night/CSSCToolButton/icon_2_pressed.png);
+
+}
+
+CSSCToolButton:disabled
+
+{
+
+    border: 1px solid transparent;
+
+	background-image:url(:/Image/Night/CSSCToolButton/icon_2_disable.png);
+
+}
+
+/*CSSCToolButton End*/</string>
+     </property>
+     <property name="SelectedIconName">
+      <string>icon_2</string>
+     </property>
+    </widget>
+    <widget class="CSSCColorLabel" name="UAV3">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>0</y>
+       <width>280</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>6</pointsize>
+      </font>
+     </property>
+     <property name="fontColorSide">
+      <color>
+       <red>130</red>
+       <green>5</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="fontColorMid">
+      <color>
+       <red>255</red>
+       <green>115</green>
+       <blue>134</blue>
+      </color>
+     </property>
+     <property name="pixelSize" stdset="0">
+      <number>30</number>
+     </property>
+     <property name="showText">
+      <string>UAV3</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="CSSCBasicWidget" name="widget1">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>959</width>
+      <height>539</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="backgroundColorStart">
+     <color>
+      <red>50</red>
+      <green>50</green>
+      <blue>50</blue>
+     </color>
+    </property>
+    <property name="backgroundColorEnd">
+     <color>
+      <red>50</red>
+      <green>50</green>
+      <blue>50</blue>
+     </color>
+    </property>
+    <property name="borderColor">
+     <color>
+      <red>100</red>
+      <green>100</green>
+      <blue>100</blue>
+     </color>
+    </property>
+    <property name="borderWidth">
+     <number>2</number>
+    </property>
+    <property name="isHorizontal">
+     <bool>false</bool>
+    </property>
+    <property name="isShowBgPixmap">
+     <bool>true</bool>
+    </property>
+    <widget class="CSSCBasicWidget" name="csscBasicWidget">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>50</y>
+       <width>941</width>
+       <height>481</height>
+      </rect>
+     </property>
+     <property name="backgroundColorStart">
+      <color>
+       <red>50</red>
+       <green>50</green>
+       <blue>50</blue>
+      </color>
+     </property>
+     <property name="backgroundColorEnd">
+      <color>
+       <red>50</red>
+       <green>50</green>
+       <blue>50</blue>
+      </color>
+     </property>
+     <property name="borderColor">
+      <color>
+       <red>100</red>
+       <green>100</green>
+       <blue>100</blue>
+      </color>
+     </property>
+     <widget class="CSSCLabel" name="csscLabel">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>941</width>
+        <height>471</height>
+       </rect>
+      </property>
+      <property name="nightNormalFontColor">
+       <color>
+        <red>0</red>
+        <green>0</green>
+        <blue>0</blue>
+       </color>
+      </property>
+     </widget>
+     <widget class="QWidget" name="widget_1" native="true">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>410</y>
+        <width>611</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:rgb(158, 158, 158);</string>
+      </property>
+      <widget class="CSSCGaugeMini" name="csscGaugeMini_6">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>41</width>
+         <height>41</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="CSSCLabel" name="weizhi1">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>15</y>
+         <width>71</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>微软雅黑</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">/*CSSCLabel Start*/
+
+CSSCLabel
+
+{
+
+	color: rgba(0, 0, 0, 255);
+
+	background-color: qlineargradient(x1: 0 , y1: 0, x2: 0, y2: 1, stop: 0 rgba(255, 52, 72, 255), stop: 1.0 rgba(255, 234, 239, 255));
+
+	border: 0px solid rgba(50, 50, 50, 128);
+
+}
+
+CSSCLabel:disabled
+
+{
+
+	color: rgba(100, 100, 100, 255);
+
+}
+
+
+
+/*CSSCLabel End*/</string>
+       </property>
+       <property name="text">
+        <string>位置</string>
+       </property>
+       <property name="normalFontColor">
+        <color>
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </property>
+       <property name="nightNormalFontColor">
+        <color>
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </property>
+       <property name="backgroundColorStart">
+        <color>
+         <red>255</red>
+         <green>52</green>
+         <blue>72</blue>
+        </color>
+       </property>
+       <property name="backgroundColorEnd">
+        <color>
+         <red>255</red>
+         <green>234</green>
+         <blue>239</blue>
+        </color>
+       </property>
+       <property name="borderColor">
+        <color alpha="128">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+      </widget>
+      <widget class="CSSCLabel" name="weizhi_x">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>15</y>
+         <width>71</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>微软雅黑</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">/*CSSCLabel Start*/
+
+CSSCLabel
+
+{
+
+	color: rgba(9, 2, 9, 255);
+
+	background-color: qlineargradient(x1: 0 , y1: 0, x2: 0, y2: 1, stop: 0 rgba(50, 50, 50, 0), stop: 1.0 rgba(50, 50, 50, 0));
+
+	border: 0px solid rgba(50, 50, 50, 128);
+
+}
+
+CSSCLabel:disabled
+
+{
+
+	color: rgba(100, 100, 100, 255);
+
+}
+
+
+
+/*CSSCLabel End*/</string>
+       </property>
+       <property name="text">
+        <string>0.0</string>
+       </property>
+       <property name="normalFontColor">
+        <color>
+         <red>9</red>
+         <green>2</green>
+         <blue>9</blue>
+        </color>
+       </property>
+       <property name="nightNormalFontColor">
+        <color>
+         <red>9</red>
+         <green>2</green>
+         <blue>9</blue>
+        </color>
+       </property>
+       <property name="backgroundColorStart">
+        <color alpha="0">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+       <property name="backgroundColorEnd">
+        <color alpha="0">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+       <property name="borderColor">
+        <color alpha="128">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+      </widget>
+      <widget class="CSSCLabel" name="weizhi_y">
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>15</y>
+         <width>71</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>微软雅黑</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">/*CSSCLabel Start*/
+
+CSSCLabel
+
+{
+
+	color: rgba(9, 2, 9, 255);
+
+	background-color: qlineargradient(x1: 0 , y1: 0, x2: 0, y2: 1, stop: 0 rgba(50, 50, 50, 0), stop: 1.0 rgba(50, 50, 50, 0));
+
+	border: 0px solid rgba(50, 50, 50, 128);
+
+}
+
+CSSCLabel:disabled
+
+{
+
+	color: rgba(100, 100, 100, 255);
+
+}
+
+
+
+/*CSSCLabel End*/</string>
+       </property>
+       <property name="text">
+        <string>0.0</string>
+       </property>
+       <property name="normalFontColor">
+        <color>
+         <red>9</red>
+         <green>2</green>
+         <blue>9</blue>
+        </color>
+       </property>
+       <property name="nightNormalFontColor">
+        <color>
+         <red>9</red>
+         <green>2</green>
+         <blue>9</blue>
+        </color>
+       </property>
+       <property name="backgroundColorStart">
+        <color alpha="0">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+       <property name="backgroundColorEnd">
+        <color alpha="0">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+       <property name="borderColor">
+        <color alpha="128">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+      </widget>
+      <widget class="CSSCLabel" name="weizhi_z">
+       <property name="geometry">
+        <rect>
+         <x>270</x>
+         <y>15</y>
+         <width>71</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>微软雅黑</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="lineWidth">
+        <number>3</number>
+       </property>
+       <property name="text">
+        <string>0.0</string>
+       </property>
+       <property name="normalFontColor">
+        <color>
+         <red>9</red>
+         <green>2</green>
+         <blue>9</blue>
+        </color>
+       </property>
+       <property name="nightNormalFontColor">
+        <color>
+         <red>9</red>
+         <green>2</green>
+         <blue>9</blue>
+        </color>
+       </property>
+       <property name="backgroundColorStart">
+        <color alpha="0">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+       <property name="backgroundColorEnd">
+        <color alpha="0">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+       <property name="borderColor">
+        <color alpha="128">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+      </widget>
+      <widget class="CSSCLabel" name="sudu1">
+       <property name="geometry">
+        <rect>
+         <x>350</x>
+         <y>15</y>
+         <width>71</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>微软雅黑</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">/*CSSCLabel Start*/
+
+CSSCLabel
+
+{
+
+	color: rgba(0, 0, 0, 255);
+
+	background-color: qlineargradient(x1: 0 , y1: 0, x2: 0, y2: 1, stop: 0 rgba(0, 255, 127, 255), stop: 1.0 rgba(255, 246, 248, 255));
+
+	border: 0px solid rgba(50, 50, 50, 128);
+
+}
+
+CSSCLabel:disabled
+
+{
+
+	color: rgba(100, 100, 100, 255);
+
+}
+
+
+
+/*CSSCLabel End*/</string>
+       </property>
+       <property name="text">
+        <string>速度</string>
+       </property>
+       <property name="normalFontColor">
+        <color>
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </property>
+       <property name="nightNormalFontColor">
+        <color>
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </property>
+       <property name="backgroundColorStart">
+        <color>
+         <red>0</red>
+         <green>255</green>
+         <blue>127</blue>
+        </color>
+       </property>
+       <property name="backgroundColorEnd">
+        <color>
+         <red>255</red>
+         <green>246</green>
+         <blue>248</blue>
+        </color>
+       </property>
+       <property name="borderColor">
+        <color alpha="128">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+      </widget>
+      <widget class="CSSCLabel" name="sudu_x">
+       <property name="geometry">
+        <rect>
+         <x>420</x>
+         <y>15</y>
+         <width>71</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>微软雅黑</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">/*CSSCLabel Start*/
+
+CSSCLabel
+
+{
+
+	color: rgba(9, 2, 9, 255);
+
+	background-color: qlineargradient(x1: 0 , y1: 0, x2: 0, y2: 1, stop: 0 rgba(50, 50, 50, 0), stop: 1.0 rgba(50, 50, 50, 0));
+
+	border: 0px solid rgba(50, 50, 50, 128);
+
+}
+
+CSSCLabel:disabled
+
+{
+
+	color: rgba(100, 100, 100, 255);
+
+}
+
+
+
+/*CSSCLabel End*/</string>
+       </property>
+       <property name="text">
+        <string>0.0</string>
+       </property>
+       <property name="normalFontColor">
+        <color>
+         <red>9</red>
+         <green>2</green>
+         <blue>9</blue>
+        </color>
+       </property>
+       <property name="nightNormalFontColor">
+        <color>
+         <red>9</red>
+         <green>2</green>
+         <blue>9</blue>
+        </color>
+       </property>
+       <property name="backgroundColorStart">
+        <color alpha="0">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+       <property name="backgroundColorEnd">
+        <color alpha="0">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+       <property name="borderColor">
+        <color alpha="128">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+      </widget>
+      <widget class="CSSCLabel" name="sudu_y">
+       <property name="geometry">
+        <rect>
+         <x>480</x>
+         <y>15</y>
+         <width>71</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>微软雅黑</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>0.0</string>
+       </property>
+       <property name="normalFontColor">
+        <color>
+         <red>9</red>
+         <green>2</green>
+         <blue>9</blue>
+        </color>
+       </property>
+       <property name="nightNormalFontColor">
+        <color>
+         <red>9</red>
+         <green>2</green>
+         <blue>9</blue>
+        </color>
+       </property>
+       <property name="backgroundColorStart">
+        <color alpha="0">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+       <property name="backgroundColorEnd">
+        <color alpha="0">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+       <property name="borderColor">
+        <color alpha="128">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+      </widget>
+      <widget class="CSSCLabel" name="sudu_z">
+       <property name="geometry">
+        <rect>
+         <x>540</x>
+         <y>15</y>
+         <width>71</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>微软雅黑</family>
+         <pointsize>10</pointsize>
+        </font>
+       </property>
+       <property name="text">
+        <string>0.0</string>
+       </property>
+       <property name="normalFontColor">
+        <color>
+         <red>9</red>
+         <green>2</green>
+         <blue>9</blue>
+        </color>
+       </property>
+       <property name="nightNormalFontColor">
+        <color>
+         <red>9</red>
+         <green>2</green>
+         <blue>9</blue>
+        </color>
+       </property>
+       <property name="backgroundColorStart">
+        <color alpha="0">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+       <property name="backgroundColorEnd">
+        <color alpha="0">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+       <property name="borderColor">
+        <color alpha="128">
+         <red>50</red>
+         <green>50</green>
+         <blue>50</blue>
+        </color>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="CSSCToolButton" name="jia1">
+     <property name="geometry">
+      <rect>
+       <x>820</x>
+       <y>10</y>
+       <width>40</width>
+       <height>36</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string>/*CSSCToolButton Start*/
+
+CSSCToolButton
+
+{
+
+	border: 1px solid transparent;
+
+	background-repeat:no-repeat;
+
+	background-image:url(:/Image/Night/CSSCToolButton/icon_3_normal.png);
+
+}
+
+CSSCToolButton:hover
+
+{
+
+	border: 1px solid rgba(21, 197, 212, 255);
+
+}
+
+CSSCToolButton:pressed
+
+{
+
+	border: 1px solid rgba(21, 197, 212, 255);
+
+	background-image:url(:/Image/Night/CSSCToolButton/icon_3_pressed.png);
+
+}
+
+CSSCToolButton:checked
+
+{
+
+	/*border: 1px solid rgba(21, 197, 212, 255);*/
+
+	background-image:url(:/Image/Night/CSSCToolButton/icon_3_pressed.png);
+
+}
+
+CSSCToolButton:disabled
+
+{
+
+    border: 1px solid transparent;
+
+	background-image:url(:/Image/Night/CSSCToolButton/icon_3_disable.png);
+
+}
+
+/*CSSCToolButton End*/</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="SelectedIconName">
+      <string>icon_3</string>
+     </property>
+    </widget>
+    <widget class="CSSCToolButton" name="all1">
+     <property name="geometry">
+      <rect>
+       <x>890</x>
+       <y>10</y>
+       <width>40</width>
+       <height>36</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string>/*CSSCToolButton Start*/
+
+CSSCToolButton
+
+{
+
+	border: 1px solid transparent;
+
+	background-repeat:no-repeat;
+
+	background-image:url(:/Image/Night/CSSCToolButton/icon_4_normal.png);
+
+}
+
+CSSCToolButton:hover
+
+{
+
+	border: 1px solid rgba(21, 197, 212, 255);
+
+}
+
+CSSCToolButton:pressed
+
+{
+
+	border: 1px solid rgba(21, 197, 212, 255);
+
+	background-image:url(:/Image/Night/CSSCToolButton/icon_4_pressed.png);
+
+}
+
+CSSCToolButton:checked
+
+{
+
+	/*border: 1px solid rgba(21, 197, 212, 255);*/
+
+	background-image:url(:/Image/Night/CSSCToolButton/icon_4_pressed.png);
+
+}
+
+CSSCToolButton:disabled
+
+{
+
+    border: 1px solid transparent;
+
+	background-image:url(:/Image/Night/CSSCToolButton/icon_4_disable.png);
+
+}
+
+/*CSSCToolButton End*/</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="SelectedIconName">
+      <string>icon_4</string>
+     </property>
+    </widget>
+    <widget class="CSSCComboBox" name="csscComboBox">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>150</width>
+       <height>32</height>
+      </rect>
+     </property>
+     <property name="editable">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="CSSCToolButton" name="jian1">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>750</x>
+       <y>10</y>
+       <width>40</width>
+       <height>36</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string>/*CSSCToolButton Start*/
+
+CSSCToolButton
+
+{
+
+	border: 1px solid transparent;
+
+	background-repeat:no-repeat;
+
+	background-image:url(:/Image/Night/CSSCToolButton/icon_2_normal.png);
+
+}
+
+CSSCToolButton:hover
+
+{
+
+	border: 1px solid rgba(21, 197, 212, 255);
+
+}
+
+CSSCToolButton:pressed
+
+{
+
+	border: 1px solid rgba(21, 197, 212, 255);
+
+	background-image:url(:/Image/Night/CSSCToolButton/icon_2_pressed.png);
+
+}
+
+CSSCToolButton:checked
+
+{
+
+	/*border: 1px solid rgba(21, 197, 212, 255);*/
+
+	background-image:url(:/Image/Night/CSSCToolButton/icon_2_pressed.png);
+
+}
+
+CSSCToolButton:disabled
+
+{
+
+    border: 1px solid transparent;
+
+	background-image:url(:/Image/Night/CSSCToolButton/icon_2_disable.png);
+
+}
+
+/*CSSCToolButton End*/</string>
+     </property>
+     <property name="SelectedIconName">
+      <string>icon_2</string>
+     </property>
+    </widget>
+    <widget class="CSSCColorLabel" name="UAV1">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>0</y>
+       <width>280</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>6</pointsize>
+      </font>
+     </property>
+     <property name="fontColorSide">
+      <color>
+       <red>130</red>
+       <green>5</green>
+       <blue>255</blue>
+      </color>
+     </property>
+     <property name="fontColorMid">
+      <color>
+       <red>255</red>
+       <green>115</green>
+       <blue>134</blue>
+      </color>
+     </property>
+     <property name="pixelSize" stdset="0">
+      <number>30</number>
+     </property>
+     <property name="showText">
+      <string>UAV1</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>CSSCComboBox</class>
+   <extends>QComboBox</extends>
+   <header>CSSCComboBox.h</header>
+  </customwidget>
+  <customwidget>
+   <class>CSSCLabel</class>
+   <extends>QLabel</extends>
+   <header>CSSCLabel.h</header>
+  </customwidget>
+  <customwidget>
+   <class>CSSCToolButton</class>
+   <extends>QToolButton</extends>
+   <header>CSSCToolButton.h</header>
+  </customwidget>
+  <customwidget>
+   <class>CSSCBasicWidget</class>
+   <extends>QWidget</extends>
+   <header>CSSCBasicWidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>CSSCGaugeMini</class>
+   <extends>QWidget</extends>
+   <header>CSSCGaugeMini.h</header>
+  </customwidget>
+  <customwidget>
+   <class>CSSCColorLabel</class>
+   <extends>QWidget</extends>
+   <header>CSSCColorLabel.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

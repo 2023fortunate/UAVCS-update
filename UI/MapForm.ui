@@ -1,0 +1,782 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MapForm</class>
+ <widget class="CSSCWidget" name="MapForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="titleText">
+   <string>地图</string>
+  </property>
+  <widget class="CSSCLabel" name="video">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>30</y>
+     <width>1920</width>
+     <height>1050</height>
+    </rect>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::LeftToRight</enum>
+   </property>
+  </widget>
+  <widget class="CSSCLongitude" name="jingwei">
+   <property name="geometry">
+    <rect>
+     <x>1580</x>
+     <y>40</y>
+     <width>340</width>
+     <height>67</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="CSSCLongitude" name="jingwei_2">
+   <property name="geometry">
+    <rect>
+     <x>1580</x>
+     <y>110</y>
+     <width>340</width>
+     <height>67</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="CSSCLongitude" name="jingwei_3">
+   <property name="geometry">
+    <rect>
+     <x>1580</x>
+     <y>180</y>
+     <width>340</width>
+     <height>67</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="CSSCLongitude" name="jingwei_4">
+   <property name="geometry">
+    <rect>
+     <x>1580</x>
+     <y>250</y>
+     <width>340</width>
+     <height>67</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="CSSCToolButton" name="large">
+   <property name="geometry">
+    <rect>
+     <x>437</x>
+     <y>33</y>
+     <width>40</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">/*CSSCToolButton Start*/
+CSSCToolButton
+{
+	border: 1px solid transparent;
+	background-repeat:no-repeat;
+	background-image:url(:/Image/Night/CSSCToolButton/icon_3_normal.png);
+}
+CSSCToolButton:hover
+{
+	border: 1px solid rgba(21, 197, 212, 255);
+}
+CSSCToolButton:pressed
+{
+	border: 1px solid rgba(21, 197, 212, 255);
+	background-image:url(:/Image/Night/CSSCToolButton/icon_3_pressed.png);
+}
+CSSCToolButton:checked
+{
+	/*border: 1px solid rgba(21, 197, 212, 255);*/
+	background-image:url(:/Image/Night/CSSCToolButton/icon_3_pressed.png);
+}
+CSSCToolButton:disabled
+{
+    border: 1px solid transparent;
+	background-image:url(:/Image/Night/CSSCToolButton/icon_3_disable.png);
+}
+/*CSSCToolButton End*/</string>
+   </property>
+   <property name="SelectedIconName">
+    <string>icon_3</string>
+   </property>
+  </widget>
+  <widget class="CSSCGaugeCompass" name="zhiNanZhen">
+   <property name="geometry">
+    <rect>
+     <x>1700</x>
+     <y>50</y>
+     <width>200</width>
+     <height>200</height>
+    </rect>
+   </property>
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <property name="acceptDrops">
+    <bool>false</bool>
+   </property>
+   <property name="value">
+    <double>0.000000000000000</double>
+   </property>
+   <property name="animation">
+    <bool>false</bool>
+   </property>
+   <property name="crownColorStart">
+    <color alpha="200">
+     <red>245</red>
+     <green>245</green>
+     <blue>245</blue>
+    </color>
+   </property>
+   <property name="crownColorEnd">
+    <color alpha="200">
+     <red>130</red>
+     <green>130</green>
+     <blue>130</blue>
+    </color>
+   </property>
+   <property name="bgColorStart">
+    <color alpha="200">
+     <red>80</red>
+     <green>80</green>
+     <blue>80</blue>
+    </color>
+   </property>
+   <property name="bgColorEnd">
+    <color alpha="200">
+     <red>80</red>
+     <green>80</green>
+     <blue>80</blue>
+    </color>
+   </property>
+   <property name="darkColor" stdset="0">
+    <color alpha="200">
+     <red>130</red>
+     <green>124</green>
+     <blue>124</blue>
+    </color>
+   </property>
+   <property name="lightColor" stdset="0">
+    <color alpha="200">
+     <red>80</red>
+     <green>80</green>
+     <blue>80</blue>
+    </color>
+   </property>
+   <property name="foreground">
+    <color alpha="200">
+     <red>200</red>
+     <green>200</green>
+     <blue>200</blue>
+    </color>
+   </property>
+   <property name="textColor">
+    <color alpha="200">
+     <red>255</red>
+     <green>255</green>
+     <blue>255</blue>
+    </color>
+   </property>
+   <property name="northPointerColor" stdset="0">
+    <color alpha="200">
+     <red>255</red>
+     <green>100</green>
+     <blue>100</blue>
+    </color>
+   </property>
+   <property name="southPointerColor" stdset="0">
+    <color alpha="200">
+     <red>21</red>
+     <green>197</green>
+     <blue>212</blue>
+    </color>
+   </property>
+   <property name="centerColorStart">
+    <color alpha="200">
+     <red>35</red>
+     <green>35</green>
+     <blue>35</blue>
+    </color>
+   </property>
+   <property name="centerColorEnd">
+    <color alpha="200">
+     <red>35</red>
+     <green>35</green>
+     <blue>35</blue>
+    </color>
+   </property>
+  </widget>
+  <widget class="CSSCGaugePlane" name="shuiPingYi">
+   <property name="geometry">
+    <rect>
+     <x>1700</x>
+     <y>290</y>
+     <width>200</width>
+     <height>200</height>
+    </rect>
+   </property>
+   <property name="borderOutColorStart">
+    <color alpha="200">
+     <red>245</red>
+     <green>245</green>
+     <blue>245</blue>
+    </color>
+   </property>
+   <property name="borderOutColorEnd">
+    <color alpha="200">
+     <red>130</red>
+     <green>130</green>
+     <blue>130</blue>
+    </color>
+   </property>
+   <property name="borderInColorStart">
+    <color alpha="200">
+     <red>50</red>
+     <green>50</green>
+     <blue>50</blue>
+    </color>
+   </property>
+   <property name="borderInColorEnd">
+    <color alpha="200">
+     <red>220</red>
+     <green>220</green>
+     <blue>220</blue>
+    </color>
+   </property>
+   <property name="bgColor">
+    <color alpha="200">
+     <red>21</red>
+     <green>197</green>
+     <blue>212</blue>
+    </color>
+   </property>
+   <property name="planeColor">
+    <color alpha="200">
+     <red>50</red>
+     <green>50</green>
+     <blue>50</blue>
+    </color>
+   </property>
+   <property name="glassColor">
+    <color alpha="100">
+     <red>250</red>
+     <green>250</green>
+     <blue>250</blue>
+    </color>
+   </property>
+   <property name="scaleColor">
+    <color alpha="200">
+     <red>255</red>
+     <green>255</green>
+     <blue>255</blue>
+    </color>
+   </property>
+   <property name="lineColor">
+    <color alpha="200">
+     <red>255</red>
+     <green>255</green>
+     <blue>255</blue>
+    </color>
+   </property>
+   <property name="textColor">
+    <color alpha="200">
+     <red>255</red>
+     <green>255</green>
+     <blue>255</blue>
+    </color>
+   </property>
+   <property name="pointerColor">
+    <color alpha="200">
+     <red>255</red>
+     <green>100</green>
+     <blue>100</blue>
+    </color>
+   </property>
+   <property name="handleColor">
+    <color alpha="200">
+     <red>255</red>
+     <green>100</green>
+     <blue>100</blue>
+    </color>
+   </property>
+   <property name="degValue">
+    <number>0</number>
+   </property>
+   <property name="rollValue">
+    <number>-8</number>
+   </property>
+  </widget>
+  <widget class="CSSCToolButton" name="orbit_3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>600</y>
+     <width>40</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;无人机3实时轨迹图&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="styleSheet">
+    <string>/*CSSCToolButton Start*/
+CSSCToolButton
+{
+	border: 1px solid transparent;
+	background-repeat:no-repeat;
+	background-image:url(:/Image/Night/CSSCToolButton/icon_5_normal.png);
+}
+CSSCToolButton:hover
+{
+	border: 1px solid rgba(21, 197, 212, 255);
+}
+CSSCToolButton:pressed
+{
+	border: 1px solid rgba(21, 197, 212, 255);
+	background-image:url(:/Image/Night/CSSCToolButton/icon_5_pressed.png);
+}
+CSSCToolButton:checked
+{
+	/*border: 1px solid rgba(21, 197, 212, 255);*/
+	background-image:url(:/Image/Night/CSSCToolButton/icon_5_pressed.png);
+}
+CSSCToolButton:disabled
+{
+    border: 1px solid transparent;
+	background-image:url(:/Image/Night/CSSCToolButton/icon_5_disable.png);
+}
+/*CSSCToolButton End*/</string>
+   </property>
+   <property name="SelectedIconName">
+    <string>icon_5</string>
+   </property>
+  </widget>
+  <widget class="CSSCToolButton" name="orbit_1_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>700</y>
+     <width>40</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;无人机1,2实时轨迹图&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="styleSheet">
+    <string>/*CSSCToolButton Start*/
+CSSCToolButton
+{
+	border: 1px solid transparent;
+	background-repeat:no-repeat;
+	background-image:url(:/Image/Night/CSSCToolButton/icon_15_normal.png);
+}
+CSSCToolButton:hover
+{
+	border: 1px solid rgba(21, 197, 212, 255);
+}
+CSSCToolButton:pressed
+{
+	border: 1px solid rgba(21, 197, 212, 255);
+	background-image:url(:/Image/Night/CSSCToolButton/icon_15_pressed.png);
+}
+CSSCToolButton:checked
+{
+	/*border: 1px solid rgba(21, 197, 212, 255);*/
+	background-image:url(:/Image/Night/CSSCToolButton/icon_15_pressed.png);
+}
+CSSCToolButton:disabled
+{
+    border: 1px solid transparent;
+	background-image:url(:/Image/Night/CSSCToolButton/icon_15_disable.png);
+}
+/*CSSCToolButton End*/</string>
+   </property>
+   <property name="SelectedIconName">
+    <string>icon_15</string>
+   </property>
+  </widget>
+  <widget class="CSSCToolButton" name="small">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>450</y>
+     <width>40</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;缩小地图&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="whatsThis">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;缩小地图&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="styleSheet">
+    <string>/*CSSCToolButton Start*/
+CSSCToolButton
+{
+	border: 1px solid transparent;
+	background-repeat:no-repeat;
+	background-image:url(:/Image/Night/CSSCToolButton/icon_2_normal.png);
+}
+CSSCToolButton:hover
+{
+	border: 1px solid rgba(21, 197, 212, 255);
+}
+CSSCToolButton:pressed
+{
+	border: 1px solid rgba(21, 197, 212, 255);
+	background-image:url(:/Image/Night/CSSCToolButton/icon_2_pressed.png);
+}
+CSSCToolButton:checked
+{
+	/*border: 1px solid rgba(21, 197, 212, 255);*/
+	background-image:url(:/Image/Night/CSSCToolButton/icon_2_pressed.png);
+}
+CSSCToolButton:disabled
+{
+    border: 1px solid transparent;
+	background-image:url(:/Image/Night/CSSCToolButton/icon_2_disable.png);
+}
+/*CSSCToolButton End*/</string>
+   </property>
+   <property name="SelectedIconName">
+    <string>icon_2</string>
+   </property>
+  </widget>
+  <widget class="CSSCToolButton" name="orbit_1">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>500</y>
+     <width>40</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;无人机1实时轨迹&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="styleSheet">
+    <string>/*CSSCToolButton Start*/
+CSSCToolButton
+{
+	border: 1px solid transparent;
+	background-repeat:no-repeat;
+	background-image:url(:/Image/Night/CSSCToolButton/icon_5_normal.png);
+}
+CSSCToolButton:hover
+{
+	border: 1px solid rgba(21, 197, 212, 255);
+}
+CSSCToolButton:pressed
+{
+	border: 1px solid rgba(21, 197, 212, 255);
+	background-image:url(:/Image/Night/CSSCToolButton/icon_5_pressed.png);
+}
+CSSCToolButton:checked
+{
+	/*border: 1px solid rgba(21, 197, 212, 255);*/
+	background-image:url(:/Image/Night/CSSCToolButton/icon_5_pressed.png);
+}
+CSSCToolButton:disabled
+{
+    border: 1px solid transparent;
+	background-image:url(:/Image/Night/CSSCToolButton/icon_5_disable.png);
+}
+/*CSSCToolButton End*/</string>
+   </property>
+   <property name="SelectedIconName">
+    <string>icon_5</string>
+   </property>
+  </widget>
+  <widget class="CSSCToolButton" name="orbit_4">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>650</y>
+     <width>40</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;无人机4实时轨迹图&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="styleSheet">
+    <string>/*CSSCToolButton Start*/
+CSSCToolButton
+{
+	border: 1px solid transparent;
+	background-repeat:no-repeat;
+	background-image:url(:/Image/Night/CSSCToolButton/icon_5_normal.png);
+}
+CSSCToolButton:hover
+{
+	border: 1px solid rgba(21, 197, 212, 255);
+}
+CSSCToolButton:pressed
+{
+	border: 1px solid rgba(21, 197, 212, 255);
+	background-image:url(:/Image/Night/CSSCToolButton/icon_5_pressed.png);
+}
+CSSCToolButton:checked
+{
+	/*border: 1px solid rgba(21, 197, 212, 255);*/
+	background-image:url(:/Image/Night/CSSCToolButton/icon_5_pressed.png);
+}
+CSSCToolButton:disabled
+{
+    border: 1px solid transparent;
+	background-image:url(:/Image/Night/CSSCToolButton/icon_5_disable.png);
+}
+/*CSSCToolButton End*/</string>
+   </property>
+   <property name="SelectedIconName">
+    <string>icon_5</string>
+   </property>
+  </widget>
+  <widget class="CSSCToolButton" name="orbit_1_2_3_4">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>800</y>
+     <width>40</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;无人机1,2,3,4实时轨迹图&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="styleSheet">
+    <string>/*CSSCToolButton Start*/
+CSSCToolButton
+{
+	border: 1px solid transparent;
+	background-repeat:no-repeat;
+	background-image:url(:/Image/Night/CSSCToolButton/icon_15_normal.png);
+}
+CSSCToolButton:hover
+{
+	border: 1px solid rgba(21, 197, 212, 255);
+}
+CSSCToolButton:pressed
+{
+	border: 1px solid rgba(21, 197, 212, 255);
+	background-image:url(:/Image/Night/CSSCToolButton/icon_15_pressed.png);
+}
+CSSCToolButton:checked
+{
+	/*border: 1px solid rgba(21, 197, 212, 255);*/
+	background-image:url(:/Image/Night/CSSCToolButton/icon_15_pressed.png);
+}
+CSSCToolButton:disabled
+{
+    border: 1px solid transparent;
+	background-image:url(:/Image/Night/CSSCToolButton/icon_15_disable.png);
+}
+/*CSSCToolButton End*/</string>
+   </property>
+   <property name="SelectedIconName">
+    <string>icon_15</string>
+   </property>
+  </widget>
+  <widget class="CSSCToolButton" name="big">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>400</y>
+     <width>40</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;放大地图&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="styleSheet">
+    <string>/*CSSCToolButton Start*/
+CSSCToolButton
+{
+	border: 1px solid transparent;
+	background-repeat:no-repeat;
+	background-image:url(:/Image/Night/CSSCToolButton/icon_3_normal.png);
+}
+CSSCToolButton:hover
+{
+	border: 1px solid rgba(21, 197, 212, 255);
+}
+CSSCToolButton:pressed
+{
+	border: 1px solid rgba(21, 197, 212, 255);
+	background-image:url(:/Image/Night/CSSCToolButton/icon_3_pressed.png);
+}
+CSSCToolButton:checked
+{
+	/*border: 1px solid rgba(21, 197, 212, 255);*/
+	background-image:url(:/Image/Night/CSSCToolButton/icon_3_pressed.png);
+}
+CSSCToolButton:disabled
+{
+    border: 1px solid transparent;
+	background-image:url(:/Image/Night/CSSCToolButton/icon_3_disable.png);
+}
+/*CSSCToolButton End*/</string>
+   </property>
+   <property name="SelectedIconName">
+    <string>icon_3</string>
+   </property>
+  </widget>
+  <widget class="CSSCToolButton" name="orbit_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>550</y>
+     <width>40</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;无人机2实时轨迹图&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="styleSheet">
+    <string>/*CSSCToolButton Start*/
+CSSCToolButton
+{
+	border: 1px solid transparent;
+	background-repeat:no-repeat;
+	background-image:url(:/Image/Night/CSSCToolButton/icon_5_normal.png);
+}
+CSSCToolButton:hover
+{
+	border: 1px solid rgba(21, 197, 212, 255);
+}
+CSSCToolButton:pressed
+{
+	border: 1px solid rgba(21, 197, 212, 255);
+	background-image:url(:/Image/Night/CSSCToolButton/icon_5_pressed.png);
+}
+CSSCToolButton:checked
+{
+	/*border: 1px solid rgba(21, 197, 212, 255);*/
+	background-image:url(:/Image/Night/CSSCToolButton/icon_5_pressed.png);
+}
+CSSCToolButton:disabled
+{
+    border: 1px solid transparent;
+	background-image:url(:/Image/Night/CSSCToolButton/icon_5_disable.png);
+}
+/*CSSCToolButton End*/</string>
+   </property>
+   <property name="SelectedIconName">
+    <string>icon_5</string>
+   </property>
+  </widget>
+  <widget class="CSSCToolButton" name="orbit_3_4">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>750</y>
+     <width>40</width>
+     <height>36</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;无人机3,4实时轨迹图&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="styleSheet">
+    <string>/*CSSCToolButton Start*/
+CSSCToolButton
+{
+	border: 1px solid transparent;
+	background-repeat:no-repeat;
+	background-image:url(:/Image/Night/CSSCToolButton/icon_15_normal.png);
+}
+CSSCToolButton:hover
+{
+	border: 1px solid rgba(21, 197, 212, 255);
+}
+CSSCToolButton:pressed
+{
+	border: 1px solid rgba(21, 197, 212, 255);
+	background-image:url(:/Image/Night/CSSCToolButton/icon_15_pressed.png);
+}
+CSSCToolButton:checked
+{
+	/*border: 1px solid rgba(21, 197, 212, 255);*/
+	background-image:url(:/Image/Night/CSSCToolButton/icon_15_pressed.png);
+}
+CSSCToolButton:disabled
+{
+    border: 1px solid transparent;
+	background-image:url(:/Image/Night/CSSCToolButton/icon_15_disable.png);
+}
+/*CSSCToolButton End*/</string>
+   </property>
+   <property name="SelectedIconName">
+    <string>icon_15</string>
+   </property>
+  </widget>
+  <widget class="CSSCWarning" name="csscWarning">
+   <property name="geometry">
+    <rect>
+     <x>810</x>
+     <y>30</y>
+     <width>521</width>
+     <height>121</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>CSSCLabel</class>
+   <extends>QLabel</extends>
+   <header>CSSCLabel.h</header>
+  </customwidget>
+  <customwidget>
+   <class>CSSCWarning</class>
+   <extends>QWidget</extends>
+   <header>CSSCWarning.h</header>
+  </customwidget>
+  <customwidget>
+   <class>CSSCToolButton</class>
+   <extends>QToolButton</extends>
+   <header>CSSCToolButton.h</header>
+  </customwidget>
+  <customwidget>
+   <class>CSSCWidget</class>
+   <extends>QWidget</extends>
+   <header>CSSCWidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>CSSCLongitude</class>
+   <extends>QWidget</extends>
+   <header>CSSCLongitude.h</header>
+  </customwidget>
+  <customwidget>
+   <class>CSSCGaugeCompass</class>
+   <extends>QWidget</extends>
+   <header>CSSCGaugeCompass.h</header>
+  </customwidget>
+  <customwidget>
+   <class>CSSCGaugePlane</class>
+   <extends>QWidget</extends>
+   <header>CSSCGaugePlane.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
